@@ -1,0 +1,22 @@
+{
+  "name": "@schul-cloud/lint-configs",
+  "version": "0.1.0",
+  "description": "All our lint configs in one place",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schul-cloud/lint-configs.git"
+  },
+  "keywords": [
+    "eslint",
+    "prettier"
+  ],
+  "author": "HPI Schul-Cloud <info@schul-cloud.org> (https://schul-cloud.org)",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/schul-cloud/lint-configs/issues"
+  },
+  "homepage": "https://github.com/schul-cloud/lint-configs#readme"
+}
