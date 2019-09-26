@@ -15,6 +15,7 @@
     "lerna-changelog": "^0.8.2"
   },
   "scripts": {
-    "changelog": "lerna-changelog"
+    "changelog": "lerna-changelog",
+    "publish": "npx lerna publish from-package"
   }
 }
