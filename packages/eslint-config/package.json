@@ -1,0 +1,63 @@
+{
+  "name": "@schul-cloud/eslint-config",
+  "version": "0.1.0-beta.13",
+  "description": "This package contains shareable ESLint configuration used by the applications created with @schul-cloud/cli.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/schul-cloud/lint-configs"
+  },
+  "author": "Shahzaib Khalid <shahzaibkhalidmalik@outlook.com> (http://www.shahzaibkhalid.com)",
+  "license": "MIT",
+  "private": false,
+  "maintainers": [
+    "Shahzaib Khalid"
+  ],
+  "engines": {
+    "node": ">=10",
+    "npm": ">=6",
+    "yarn": ">=1.12"
+  },
+  "bugs": {
+    "url": "https://github.com/schul-cloud/lint-configs/issues"
+  },
+  "homepage": "https://www.npmjs.com/package/@schul-cloud/eslint-config",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "schul-cloud",
+    "react",
+    "prettier"
+  ],
+  "dependencies": {
+    "@babel/core": "^7.6.0",
+    "@schul-cloud/webpack-config": "^0.1.0-beta.12",
+    "@typescript-eslint/eslint-plugin": "^2.1.0",
+    "@typescript-eslint/parser": "^2.1.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.3.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.2.0",
+    "eslint-import-resolver-node": "^0.3.2",
+    "eslint-import-resolver-typescript": "^1.1.1",
+    "eslint-import-resolver-webpack": "^0.11.1",
+    "eslint-plugin-emotion": "^10.0.14",
+    "eslint-plugin-filenames": "^1.3.2",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^22.17.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^2.0.1",
+    "prettier": "1.18.2",
+    "typescript": "^3.6.2"
+  },
+  "peerDependencies": {
+    "eslint": ">=6"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
