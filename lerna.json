@@ -1,0 +1,28 @@
+{
+  "lerna": "3.13.1",
+  "packages": [
+    "packages/*"
+  ],
+  "version": "0.1.0",
+  "npmClient": "npm",
+  "npmClientArgs": [],
+  "changelog": {
+    "repo": "schul-cloud/lint-configs",
+    "labels": {
+      "new feature": ":rocket: New Feature",
+      "breaking change": ":boom: Breaking Change",
+      "bug fix": ":bug: Bug Fix",
+      "enhancement": ":nail_care: Enhancement",
+      "documentation": ":memo: Documentation",
+      "internal": ":house: Internal",
+      "refactor": ":hammer: Refactor"
+    },
+    "cacheDir": ".changelog"
+  },
+  "command": {
+    "publish": {
+      "message": "chore(release): publish %s",
+      "allowBranch": "master"
+    }
+  }
+}

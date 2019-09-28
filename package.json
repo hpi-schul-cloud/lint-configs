@@ -1,22 +1,21 @@
 {
-  "name": "@schul-cloud/lint-configs",
-  "version": "0.1.0",
-  "description": "All our lint configs in one place",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "name": "schul-cloud",
+  "license": "AGPL-3.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/schul-cloud/lint-configs.git"
+    "url": "https://github.com/schul-cloud/lint-configs"
   },
-  "keywords": [
-    "eslint",
-    "prettier"
-  ],
-  "author": "HPI Schul-Cloud <info@schul-cloud.org> (https://schul-cloud.org)",
-  "license": "AGPL-3.0",
+  "author": "HPI Schul-cloud (https://schul-cloud.org)",
+  "homepage": "https://github.com/schul-cloud/lint-configs#readme",
   "bugs": {
     "url": "https://github.com/schul-cloud/lint-configs/issues"
   },
-  "homepage": "https://github.com/schul-cloud/lint-configs#readme"
+  "devDependencies": {
+    "lerna": "^3.15.0",
+    "lerna-changelog": "^0.8.2"
+  },
+  "scripts": {
+    "changelog": "lerna-changelog",
+    "publish": "npx lerna publish from-package"
+  }
 }

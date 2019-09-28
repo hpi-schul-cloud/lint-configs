@@ -1,6 +1,6 @@
-module.exports = {
+const prettierConfig = {
 	printWidth: 80,
-	useTabs: true, // we are using tabs! http://lea.verou.me/2012/01/why-tabs-are-clearly-superior/
+	useTabs: true,
 	trailingComma: "es5",
 	bracketSpacing: true,
 	jsxBracketSameLine: false,
@@ -9,5 +9,7 @@ module.exports = {
 	htmlWhitespaceSensitivity: "strict",
 	endOfLine: "lf",
 	semi: true,
-	singleQuote: true,
+	singleQuote: true
 };
+
+module.exports = prettierConfig;
