@@ -17,5 +17,8 @@
   "scripts": {
     "changelog": "lerna-changelog",
     "publish": "npx lerna publish from-package"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
   }
 }
