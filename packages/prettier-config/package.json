@@ -29,8 +29,5 @@
   "dependencies": {
     "prettier": "1.18.2"
   },
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://npm.pkg.github.com/"
-  }
+  "gitHead": "6c0bb7dfd6928ee9f6c3d53bd3a94c199cad7f60"
 }
