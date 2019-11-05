@@ -14,3 +14,25 @@ This repo contains several packages to develop and build clean projects.
 * [@schul-cloud/eslint-config](./packages/eslint-config/README.md) - This repository contains shareable ESLint configuration used by the applications created with @schul-cloud/cli.
 
 * [@schul-cloud/prettier-config](./packages/prettier-config/README.md) - This repository contains shareable Prettier configuration used by the applications created with @schul-cloud/cli.
+
+# How to use it
+
+## Initial Setup
+
+Just run `npm run setup`
+
+## Commits & Pulls & Merges
+
+Whenever you merge something into develop, please add the lerna-changelog labels to the pull before you merge to auto generate the changelog.
+Read more here: https://github.com/lerna/lerna-changelog#usage
+
+Available Labels:
+- breaking (💥 Breaking Change)
+- enhancement (🚀 Enhancement)
+- bug (🐛 Bug Fix)
+- documentation (📝 Documentation)
+- internal (🏠 Internal)
+
+## Release Packages
+
+Just bump the version and merge the changes you wan't to deploy into the master branch. All commits on master will be released.

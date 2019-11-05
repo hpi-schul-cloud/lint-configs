@@ -1,7 +1,7 @@
 {
-  "name": "@schul-cloud/prettier-config",
+  "name": "@schul-cloud/stylelint-config",
   "version": "0.1.4",
-  "description": "This package contains shareable Prettier configuration used by the applications created @schul-cloud.",
+  "description": "This package contains shareable Stylelint configuration used by the applications created @schul-cloud.",
   "main": "index.js",
   "author": "HPI Schul-cloud (https://schul-cloud.org)",
   "license": "AGPL-3.0",
@@ -19,15 +19,21 @@
     "url": "https://github.com/schul-cloud/lint-configs/issues"
   },
   "keywords": [
-    "prettier",
+    "Stylelint",
     "schul-cloud",
     "javascript",
     "formatting",
     "react"
   ],
-  "homepage": "https://www.npmjs.com/package/@schul-cloud/prettier-config",
+  "homepage": "https://www.npmjs.com/package/@schul-cloud/stylelint-config",
   "peerDependencies": {
-    "stylelint": ">=1.18.2"
+    "stylelint": ">=10.1.0"
+  },
+  "dependencies": {
+    "stylelint-config-prettier": "^6.0.0",
+    "stylelint-config-recess-order": "^2.0.3",
+    "stylelint-config-standard": "^19.0.0",
+    "stylelint-scss": "^3.12.1"
   },
   "publishConfig": {
     "access": "public"

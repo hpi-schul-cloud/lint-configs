@@ -103,11 +103,6 @@ const eslintConfigForJS = {
 	"plugins": [
 		"import"
 	],
-	"env": {
-		"node": true,
-		"mocha": true,
-		"browser": true
-	},
 }
 
 module.exports = eslintConfigForJS;

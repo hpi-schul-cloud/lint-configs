@@ -62,3 +62,6 @@ typings/
 
 # lerna-changelog directory
 .changelog/
+
+# npm credentials
+.npmrc
