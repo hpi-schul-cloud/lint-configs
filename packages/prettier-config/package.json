@@ -29,5 +29,8 @@
   "dependencies": {
     "prettier": "1.18.2"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "gitHead": "73c7c0583a18be770ffa46533cef97695bc5985e"
 }
