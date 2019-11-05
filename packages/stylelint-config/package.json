@@ -1,6 +1,6 @@
 {
   "name": "@schul-cloud/stylelint-config",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "This package contains shareable Stylelint configuration used by the applications created @schul-cloud.",
   "main": "index.js",
   "author": "HPI Schul-cloud (https://schul-cloud.org)",
