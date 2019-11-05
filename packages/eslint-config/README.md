@@ -1,21 +1,21 @@
-<h1 align="center">@schul-cloud/eslint-config</h1>
+# @schul-cloud/eslint-config
 
-<p align="center">This package contains shareable ESLint configuration used by the applications created with @schul-cloud/cli.</p>
+This package contains shareable ESLint configuration used by the @schul-cloud applications.
 
 ## Getting Started
 
 ### 1. Installation
 
-Using Yarn:
-
-```shell
-  yarn add @schul-cloud/eslint-config --dev
-```
-
 Using npm:
 
 ```shell
   npm install @schul-cloud/eslint-config --save-dev
+```
+
+Using Yarn:
+
+```shell
+  yarn add @schul-cloud/eslint-config --dev
 ```
 
 ### 2. Usage
@@ -27,22 +27,16 @@ For JavaScript projects:
 
 ```javascript
 module.exports = {
-  extends: '@schul-cloud/eslint-config/javascriptReact',
+  extends: '@schul-cloud/eslint-config/javascript',
 };
 ```
 
-For TypeScript projects:
+For Vue projects:
 
 ```javascript
 module.exports = {
-  extends: '@schul-cloud/eslint-config/typescriptReact',
+  extends: '@schul-cloud/eslint-config/javascriptVue',
 };
-```
-
-* In order to have a `.eslintignore` file as well, just run the following command from terminal:
-
-```sh
-  cat ./node_modules/@schul-cloud/eslint-config/.eslintignore >> .eslintignore
 ```
 
 ## Override Default Config
@@ -53,41 +47,16 @@ For JavaScript projects:
 
 ```javascript
 module.exports = {
-  extends: '@schul-cloud/eslint-config/javascriptReact',
+  extends: '@schul-cloud/eslint-config/javascript',
   // your config options goes here, e.g. plugins: [...]
 };
 ```
 
-For TypeScript projects:
+For Vue projects:
 
 ```javascript
 module.exports = {
-  extends: '@schul-cloud/eslint-config/typescriptReact',
+  extends: '@schul-cloud/eslint-config/javascriptVue',
   // your config options goes here, e.g. plugins: [...]
 };
-```
-
-## VSCode ESLint Extension Setup
-
-As we're not installing ESLint locally per project, but leveraging ESLint and associated packages installed in `@schul-cloud/eslint-config` project. Thus, we need to inform VSCode ESLint extension that how to resolve ESLint.
-
-* Go to `settings.json` in VSCode.
-
-* Add following settings:
-
-```json
-  "eslint.nodePath": "./node_modules/@schul-cloud/eslint-config/node_modules"
-```
-
-Above mentioned settings will let the extension read ESLint from `@schul-cloud/eslint-config`.
-
-Also, for TypeScript, we need to tell ESLint extension to lint `.ts` and `.tsx` files as well. We recommend to add following setting as well in `settings.json`:
-
-```json
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "typescript",
-    "typescriptreact"
-  ],
 ```

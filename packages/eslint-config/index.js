@@ -1,7 +1,7 @@
-const javascriptReact = require('./javascriptReact.js');
-const typescriptReact = require('./typescriptReact.js');
+const javascript = require('./javascript.js');
+const javascriptVue = require('./javascriptVue.js');
 
 module.exports = {
-  javascriptReact,
-  typescriptReact
+  javascript,
+  javascriptVue
 }
