@@ -26,8 +26,8 @@
     "react"
   ],
   "homepage": "https://www.npmjs.com/package/@schul-cloud/prettier-config",
-  "dependencies": {
-    "prettier": "1.18.2"
+  "peerDependencies": {
+    "stylelint": ">=1.18.2"
   },
   "publishConfig": {
     "access": "public"
