@@ -22,8 +22,7 @@
   "command": {
     "publish": {
       "message": "chore(release): publish %s",
-      "allowBranch": "master",
-      "registry": "https://npm.pkg.github.com"
+      "allowBranch": "master"
     }
   }
 }
