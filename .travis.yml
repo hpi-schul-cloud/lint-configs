@@ -30,3 +30,7 @@ jobs:
         skip_cleanup: true
         on:
           branch: master
+    - script: npm run lerna:changelog
+      name: Changelog
+      env:
+        - GITHUB_AUTH=$GITHUB_PACKAGE_TOKEN
