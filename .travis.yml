@@ -1,6 +1,5 @@
 language: node_js
-node_js:
-  - "10"
+node_js: "lts/*"
 branches:
   only:
     - master
@@ -13,5 +12,4 @@ deploy:
   script: "npm run lerna:publish -- --yes"
   skip_cleanup: true
   on:
-    node: "10"
     branch: master
