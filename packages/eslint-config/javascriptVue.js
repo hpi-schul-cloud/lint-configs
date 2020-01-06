@@ -30,7 +30,7 @@ const eslintConfigForVue = {
 		// reduce complexity of each file by limiting the file length
 		"max-lines": [
 			"error",
-			{ max: 250, skipBlankLines: true, skipComments: true },
+			{ max: 300, skipBlankLines: true, skipComments: true },
 		],
 		// Config from existing client & server
 		"no-underscore-dangle": ["error", { allow: ["_id", "_v", "__v"] }],
@@ -76,6 +76,34 @@ const eslintConfigForVue = {
 		"vue/space-infix-ops": ["error"],
 		"vue/space-unary-ops": ["error"],
 		"vue/v-on-function-call": ["error", "never"],
+		"vue/order-in-components": [
+			"error",
+			{
+				order: [
+					"el",
+					"name",
+					"parent",
+					"functional",
+					["delimiters", "comments"],
+					["components", "directives", "filters"],
+					"extends",
+					"mixins",
+					"inheritAttrs",
+					"model",
+					["props", "propsData"],
+					"fetch",
+					"asyncData",
+					"data",
+					"computed",
+					"watch",
+					"LIFECYCLE_HOOKS",
+					"methods",
+					"head",
+					["template", "render"],
+					"renderError"
+				]
+			}
+		],
 		/*
 		"vue/v-slot-style": [
 			"error",
