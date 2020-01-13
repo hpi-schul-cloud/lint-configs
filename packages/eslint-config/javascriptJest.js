@@ -2,6 +2,9 @@
 const eslintConfigForJest = {
   "plugins": ["jest"],
   "extends": ["plugin:jest/style"],
+  env: {
+    jest: true,
+  },
   rules: {
     // additional rules
     "jest/consistent-test-it": "error",
