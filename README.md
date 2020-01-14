@@ -11,9 +11,11 @@ This software is still in beta stages and not ready for production use just yet.
 
 This repo contains several packages to develop and build clean projects.
 
-* [@schul-cloud/eslint-config](./packages/eslint-config/README.md) - This repository contains shareable ESLint configuration used by the applications created with @schul-cloud/cli.
+* [@schul-cloud/eslint-config](./packages/eslint-config/README.md) - This repository contains shareable ESLint configuration used by the applications at @schul-cloud.
 
-* [@schul-cloud/prettier-config](./packages/prettier-config/README.md) - This repository contains shareable Prettier configuration used by the applications created with @schul-cloud/cli.
+* [@schul-cloud/prettier-config](./packages/prettier-config/README.md) - This repository contains shareable Prettier configuration used by the applications at @schul-cloud.
+
+* [@schul-cloud/stylelint-config](./packages/stylelint-config/README.md) - This repository contains shareable Stylelint configuration used by the applications at @schul-cloud.
 
 # How to use it
 
