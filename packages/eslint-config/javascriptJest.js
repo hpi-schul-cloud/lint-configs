@@ -19,6 +19,10 @@ const eslintConfigForJest = {
     "jest/require-top-level-describe": "error",
     "jest/require-to-throw-message": "error",
     "jest/valid-title": "error",
+    "jest/consistent-test-it": [
+      "error",
+      { fn: "test", withinDescribe: "test" },
+    ],
 	},
 };
 
