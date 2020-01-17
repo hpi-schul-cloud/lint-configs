@@ -1,6 +1,6 @@
 {
   "name": "@schul-cloud/eslint-config",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "This package contains shareable ESLint configuration used by the applications @schul-cloud.",
   "main": "index.js",
   "repository": {
@@ -11,8 +11,7 @@
   "license": "AGPL-3.0",
   "engines": {
     "node": ">=10",
-    "npm": ">=6",
-    "yarn": ">=1.12"
+    "npm": ">=6"
   },
   "bugs": {
     "url": "https://github.com/schul-cloud/lint-configs/issues"
