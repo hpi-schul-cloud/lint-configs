@@ -5,6 +5,8 @@
 
 # STOP! 🚧 ✋
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/schul-cloud/lint-configs.svg)](https://greenkeeper.io/)
+
 This software is still in beta stages and not ready for production use just yet. Please try it out, give feedback, and help fix bugs.
 
 # About
