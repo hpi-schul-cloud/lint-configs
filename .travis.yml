@@ -35,6 +35,8 @@ jobs:
       name: Changelog
       env:
         - GITHUB_AUTH=$GITHUB_PACKAGE_TOKEN
+      before_deploy:
+        - git checkout master
       deploy:
         provider: script
         script:
