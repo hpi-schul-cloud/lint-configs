@@ -4,7 +4,7 @@ pull_request_rules:
       - label!=WIP
       - label!=waiting
       - label=ready to merge
-      - label~=(breaking|bug|documentation|enhancement|internal)
+      - label~=(Breaking|Bug|Documentation|Enhancement|Internal)
     actions:
       merge:
         method: merge
@@ -46,7 +46,7 @@ pull_request_rules:
   - name: remove "ready to merge" label when pull does not contain version info
     conditions:
       - label~=ready to merge
-      - -label~=(breaking|bug|documentation|enhancement|internal)
+      - -label~=(Breaking|Bug|Documentation|Enhancement|Internal)
       - -merged
     actions:
       comment:
