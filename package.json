@@ -16,7 +16,7 @@
   },
   "scripts": {
     "setup": "npm i && lerna exec npm i",
-    "lerna:changelog": "lerna-changelog",
+    "lerna:changelog": "npx lerna-changelog",
     "lerna:publish": "npx lerna publish from-package"
   }
 }
