@@ -4,6 +4,11 @@ pull_request_rules:
       - label!=WIP
       - label!=waiting
       - label=ready to merge
+      - -label~=breaking
+      - -label~=bug
+      - -label~=documentation
+      - -label~=enhancement
+      - -label~=internal
     actions:
       merge:
         method: merge
