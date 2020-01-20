@@ -3,6 +3,8 @@ node_js: "lts/*"
 branches:
   only:
     - master
+    - develop
+    - /^greenkeeper/.*$/
 cache: npm
 
 jobs:
@@ -30,7 +32,13 @@ jobs:
         skip_cleanup: true
         on:
           branch: master
-    - script: npm run lerna:changelog
+    - script: skip
       name: Changelog
       env:
         - GITHUB_AUTH=$GITHUB_PACKAGE_TOKEN
+      deploy:
+        provider: script
+        script:
+          - "npm run lerna:changelog"
+        on:
+          branch: master

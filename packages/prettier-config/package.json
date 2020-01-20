@@ -1,6 +1,6 @@
 {
   "name": "@schul-cloud/prettier-config",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "This package contains shareable Prettier configuration used by the applications created @schul-cloud.",
   "main": "index.js",
   "author": "HPI Schul-cloud (https://schul-cloud.org)",
@@ -8,8 +8,7 @@
   "private": false,
   "engines": {
     "node": ">=10",
-    "npm": ">=6",
-    "yarn": ">=1.12"
+    "npm": ">=6"
   },
   "repository": {
     "type": "git",
@@ -27,7 +26,7 @@
   ],
   "homepage": "https://www.npmjs.com/package/@schul-cloud/prettier-config",
   "peerDependencies": {
-    "stylelint": ">=1.18.2"
+    "prettier": ">=1.19.1"
   },
   "publishConfig": {
     "access": "public"

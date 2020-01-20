@@ -1,7 +1,7 @@
 // https://github.com/jest-community/eslint-plugin-jest
 const eslintConfigForJest = {
   "plugins": ["jest"],
-  "extends": ["plugin:jest/style"],
+  "extends": ["plugin:jest/recommended", "plugin:jest/style"],
   env: {
     jest: true,
   },
@@ -19,10 +19,6 @@ const eslintConfigForJest = {
     "jest/require-top-level-describe": "error",
     "jest/require-to-throw-message": "error",
     "jest/valid-title": "error",
-    "jest/consistent-test-it": [
-      "error",
-      { fn: "test", withinDescribe: "test" },
-    ],
 	},
 };
 

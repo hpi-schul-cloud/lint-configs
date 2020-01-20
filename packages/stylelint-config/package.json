@@ -1,6 +1,6 @@
 {
   "name": "@schul-cloud/stylelint-config",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "This package contains shareable Stylelint configuration used by the applications created @schul-cloud.",
   "main": "index.js",
   "author": "HPI Schul-cloud (https://schul-cloud.org)",
@@ -8,8 +8,7 @@
   "private": false,
   "engines": {
     "node": ">=10",
-    "npm": ">=6",
-    "yarn": ">=1.12"
+    "npm": ">=6"
   },
   "repository": {
     "type": "git",
@@ -30,7 +29,7 @@
     "stylelint": ">=10.1.0"
   },
   "dependencies": {
-    "stylelint-config-prettier": "^6.0.0",
+    "stylelint-config-prettier": "^8.0.1",
     "stylelint-config-recess-order": "^2.0.3",
     "stylelint-config-standard": "^19.0.0",
     "stylelint-scss": "^3.12.1"
