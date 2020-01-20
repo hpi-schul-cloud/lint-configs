@@ -4,6 +4,7 @@ pull_request_rules:
       - label!=WIP
       - label!=waiting
       - label=ready to merge
+      - label~=(breaking|bug|documentation|enhancement|internal)
     actions:
       merge:
         method: merge
@@ -39,6 +40,17 @@ pull_request_rules:
     actions:
       comment:
         message: The "ready to merge" label can only be set after one pull request approval
+      label:
+        remove:
+          - ready to merge
+  - name: remove "ready to merge" label when pull does not contain version info
+    conditions:
+      - label~=ready to merge
+      - -label~=(breaking|bug|documentation|enhancement|internal)
+      - -merged
+    actions:
+      comment:
+        message: You must set a version label (breaking, bug, documentation, enhancement, internal) before we can merge this. This is required to auto generate the changelog
       label:
         remove:
           - ready to merge
