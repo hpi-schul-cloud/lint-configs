@@ -29,8 +29,7 @@ Just run `npm run setup`
 
 ## Commits & Pulls & Merges
 
-Whenever you merge something into develop, please add the lerna-changelog labels to the pull before you merge to auto generate the changelog.
-Read more here: https://github.com/lerna/lerna-changelog#usage
+Please label Pull Requests before merging.
 
 Available Labels:
 - `💥 Breaking Change`

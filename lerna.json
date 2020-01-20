@@ -4,24 +4,11 @@
   ],
   "npmClient": "npm",
   "npmClientArgs": [],
-  "changelog": {
-    "repo": "schul-cloud/lint-configs",
-    "labels": {
-      "new feature": ":rocket: New Feature",
-      "breaking change": ":boom: Breaking Change",
-      "bug fix": ":bug: Bug Fix",
-      "enhancement": ":nail_care: Enhancement",
-      "documentation": ":memo: Documentation",
-      "internal": ":house: Internal",
-      "refactor": ":hammer: Refactor"
-    },
-    "cacheDir": ".changelog"
-  },
   "command": {
     "publish": {
       "message": "chore(release): publish %s",
       "allowBranch": "master"
     }
   },
-  "version": "0.4.1"
+  "version": "0.0.0"
 }
