@@ -1,6 +1,6 @@
 {
   "name": "@schul-cloud/eslint-config",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "description": "This package contains shareable ESLint configuration used by the applications @schul-cloud.",
   "main": "index.js",
   "repository": {
