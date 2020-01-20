@@ -1,6 +1,7 @@
 {
   "name": "schul-cloud",
   "license": "AGPL-3.0",
+  "version": "0.4.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/schul-cloud/lint-configs"
@@ -11,7 +12,7 @@
     "url": "https://github.com/schul-cloud/lint-configs/issues"
   },
   "devDependencies": {
-    "lerna": "^3.15.0",
+    "lerna": "^3.16.4",
     "lerna-changelog": "^1.0.0"
   },
   "scripts": {
