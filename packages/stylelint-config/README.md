@@ -1,5 +1,7 @@
 # @schul-cloud/stylelint-config
 
+[![npm (scoped)](https://img.shields.io/npm/v/@schul-cloud/stylelint-config)](https://www.npmjs.com/package/@schul-cloud/stylelint-config)
+
 ## Getting Started
 
 ### 1. Installation

@@ -1,5 +1,7 @@
 # @schul-cloud/prettier-config
 
+[![npm (scoped)](https://img.shields.io/npm/v/@schul-cloud/prettier-config)](https://www.npmjs.com/package/@schul-cloud/prettier-config)
+
 ## Getting Started
 
 ### 1. Installation

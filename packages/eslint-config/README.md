@@ -2,6 +2,8 @@
 
 This package contains shareable ESLint configuration used by the @schul-cloud applications.
 
+[![npm (scoped)](https://img.shields.io/npm/v/@schul-cloud/eslint-config)](https://www.npmjs.com/package/@schul-cloud/eslint-config)
+
 ## Getting Started
 
 ### 1. Installation
