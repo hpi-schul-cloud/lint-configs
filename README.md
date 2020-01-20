@@ -33,11 +33,11 @@ Whenever you merge something into develop, please add the lerna-changelog labels
 Read more here: https://github.com/lerna/lerna-changelog#usage
 
 Available Labels:
-- 💥 Breaking Change
-- 🚀 Enhancement
-- 🐛 Bug Fix
-- 📝 Documentation
-- 🏠 Internal
+- `💥 Breaking Change`
+- `🚀 Enhancement`
+- `🐛 Bug Fix`
+- `📝 Documentation`
+- `🏠 Internal`
 
 ## Release Packages
 
