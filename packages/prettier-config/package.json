@@ -1,6 +1,6 @@
 {
   "name": "@schul-cloud/prettier-config",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "description": "This package contains shareable Prettier configuration used by the applications created @schul-cloud.",
   "main": "index.js",
   "author": "HPI Schul-cloud (https://schul-cloud.org)",
@@ -20,9 +20,7 @@
   "keywords": [
     "prettier",
     "schul-cloud",
-    "javascript",
-    "formatting",
-    "react"
+    "formatting"
   ],
   "homepage": "https://www.npmjs.com/package/@schul-cloud/prettier-config",
   "peerDependencies": {

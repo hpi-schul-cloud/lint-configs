@@ -6,7 +6,7 @@ const prettierConfig = {
 	jsxBracketSameLine: false,
 	arrowParens: "always",
 	proseWrap: "never",
-	htmlWhitespaceSensitivity: "strict",
+	htmlWhitespaceSensitivity: "css",
 	endOfLine: "lf",
 	semi: true,
 	singleQuote: false
