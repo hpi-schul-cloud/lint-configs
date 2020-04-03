@@ -5,7 +5,6 @@
 
 # STOP! 🚧 ✋
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/schul-cloud/lint-configs.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.com/schul-cloud/lint-configs.svg?branch=master)](https://travis-ci.com/schul-cloud/lint-configs)
 [![Mergify badge](https://img.shields.io/endpoint.svg?url=https://dashboard.mergify.io/badges/schul-cloud/lint-configs&style=flat)](https://mergify.io)
 
