@@ -1,4 +1,47 @@
 pull_request_rules:
+  #######################
+  # MERGE PRECONDITIONS
+  #######################
+  - name: comment notice when pull does not contain version info
+    conditions:
+      - -label~=(Breaking|Bug|Documentation|Enhancement|Internal)
+    actions:
+      comment:
+        message: You must set a version label (breaking, bug, documentation, enhancement, internal) before we can merge this.
+  - name: add WIP label when WIP is in title
+    conditions:
+      - title~=WIP
+    actions:
+      comment:
+        message: Please remove WIP from the title. We have set the WIP Label for you instead.
+      label:
+        add:
+        - WIP
+  - name: remove "ready to merge" label when pull is not approved
+    conditions:
+      - "#approved-reviews-by=0"
+      - label~=ready to merge
+      - -merged
+    actions:
+      comment:
+        message: The "ready to merge" label can only be set after one pull request approval
+      label:
+        remove:
+          - ready to merge
+
+  #######################
+  # AUTO MERGING
+  #######################
+  - name: auto merge passing Dependabot pull requests
+    conditions:
+      - author~=dependabot(-preview)?\[bot\]
+      - label~=dependencies
+      - label~=(Internal)
+    actions:
+      merge:
+        method: squash
+        strict: smart
+
   - name: automatic merging when label is set
     conditions:
       - label!=WIP
@@ -8,7 +51,11 @@ pull_request_rules:
     actions:
       merge:
         method: merge
-        strict: true
+        strict: smart
+
+  #######################
+  # CLEANUP AFTER MERGE
+  #######################
   - name: remove ready to merge when merged
     conditions:
       - merged
@@ -23,29 +70,3 @@ pull_request_rules:
       - label!=WIP
     actions:
       delete_head_branch: {}
-  - name: add WIP label when WIP is in title
-    conditions:
-      - title~=WIP
-    actions:
-      comment:
-        message: Please remove WIP from the title. We have set the WIP Label for you instead.
-      label:
-        add:
-          - WIP
-  - name: remove "ready to merge" label when pull is not approved
-    conditions:
-      - "#approved-reviews-by=0"
-      - label~=ready to merge
-      - -merged
-    actions:
-      comment:
-        message: The "ready to merge" label can only be set after one pull request approval
-      label:
-        remove:
-          - ready to merge
-  - name: comment notice when pull does not contain version info
-    conditions:
-      - -label~=(Breaking|Bug|Documentation|Enhancement|Internal)
-    actions:
-      comment:
-        message: You must set a version label (breaking, bug, documentation, enhancement, internal) before we can merge this.
