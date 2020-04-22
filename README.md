@@ -1,14 +1,9 @@
-<h1 align="center">schul-cloud</h1>
-
-<p align="center">🛠 — Toolkit for building & maintaining futuristic React apps.
-</p>
+<h1 align="center">schul-cloud lint</h1>
 
 # STOP! 🚧 ✋
 
 [![Build Status](https://travis-ci.com/schul-cloud/lint-configs.svg?branch=master)](https://travis-ci.com/schul-cloud/lint-configs)
 [![Mergify badge](https://img.shields.io/endpoint.svg?url=https://dashboard.mergify.io/badges/schul-cloud/lint-configs&style=flat)](https://mergify.io)
-
-This software is still in beta stages and not ready for production use just yet. Please try it out, give feedback, and help fix bugs.
 
 # About
 
