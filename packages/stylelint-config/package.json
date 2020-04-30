@@ -1,6 +1,6 @@
 {
   "name": "@schul-cloud/stylelint-config",
-  "version": "0.1.5",
+  "version": "1.0.0",
   "description": "This package contains shareable Stylelint configuration used by the applications created @schul-cloud.",
   "main": "index.js",
   "author": "HPI Schul-cloud (https://schul-cloud.org)",
@@ -18,15 +18,13 @@
     "url": "https://github.com/schul-cloud/lint-configs/issues"
   },
   "keywords": [
-    "Stylelint",
-    "schul-cloud",
-    "javascript",
+    "stylelint",
     "formatting",
-    "react"
+    "schul-cloud"
   ],
   "homepage": "https://www.npmjs.com/package/@schul-cloud/stylelint-config",
   "peerDependencies": {
-    "stylelint": ">=10.1.0"
+    "stylelint": ">=13.3.3"
   },
   "dependencies": {
     "stylelint-config-prettier": "^8.0.1",

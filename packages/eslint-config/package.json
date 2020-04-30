@@ -1,6 +1,6 @@
 {
   "name": "@schul-cloud/eslint-config",
-  "version": "0.4.0",
+  "version": "1.0.0",
   "description": "This package contains shareable ESLint configuration used by the applications @schul-cloud.",
   "main": "index.js",
   "repository": {
@@ -19,11 +19,8 @@
   "homepage": "https://www.npmjs.com/package/@schul-cloud/eslint-config",
   "keywords": [
     "eslint",
-    "eslintconfig",
-    "config",
-    "schul-cloud",
-    "react",
-    "prettier"
+    "formatting",
+    "schul-cloud"
   ],
   "dependencies": {
     "@babel/core": "^7.9.6",
@@ -39,7 +36,7 @@
     "prettier": "^2.0.5"
   },
   "peerDependencies": {
-    "eslint": ">=6"
+    "eslint": ">=6.8.0"
   },
   "publishConfig": {
     "access": "public"

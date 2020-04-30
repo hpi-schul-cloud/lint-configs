@@ -9,7 +9,7 @@ const prettierConfig = {
 	htmlWhitespaceSensitivity: "css",
 	endOfLine: "lf",
 	semi: true,
-	singleQuote: false
+	singleQuote: true
 };
 
 module.exports = prettierConfig;
