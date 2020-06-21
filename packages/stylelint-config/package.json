@@ -27,7 +27,7 @@
     "stylelint": ">=13.3.3"
   },
   "dependencies": {
-    "stylelint-config-prettier": "^8.0.1",
+    "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-recess-order": "^2.0.3",
     "stylelint-config-standard": "^20.0.0",
     "stylelint-scss": "^3.18.0"
