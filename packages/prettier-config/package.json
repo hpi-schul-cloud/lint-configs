@@ -1,9 +1,9 @@
 {
-  "name": "@schul-cloud/prettier-config",
+  "name": "@hpi-schul-cloud/prettier-config",
   "version": "1.0.0",
-  "description": "This package contains shareable Prettier configuration used by the applications created @schul-cloud.",
+  "description": "This package contains shareable Prettier configuration used by the applications created @hpi-schul-cloud.",
   "main": "index.js",
-  "author": "HPI Schul-cloud (https://schul-cloud.org)",
+  "author": "HPI schul-cloud (https://hpi-schul-cloud.de)",
   "license": "AGPL-3.0",
   "private": false,
   "engines": {
@@ -12,17 +12,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/schul-cloud/lint-configs"
+    "url": "https://github.com/hpi-schul-cloud/lint-configs"
   },
   "bugs": {
-    "url": "https://github.com/schul-cloud/lint-configs/issues"
+    "url": "https://github.com/hpi-schul-cloud/lint-configs/issues"
   },
   "keywords": [
     "prettier",
     "formatting",
-    "schul-cloud"
+    "hpi-schul-cloud"
   ],
-  "homepage": "https://www.npmjs.com/package/@schul-cloud/prettier-config",
+  "homepage": "https://www.npmjs.com/package/@hpi-schul-cloud/prettier-config",
   "peerDependencies": {
     "prettier": ">=2.0.5"
   },

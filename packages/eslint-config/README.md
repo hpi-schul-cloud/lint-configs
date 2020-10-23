@@ -1,8 +1,8 @@
-# @schul-cloud/eslint-config
+# @hpi-schul-cloud/eslint-config
 
-This package contains shareable ESLint configuration used by the @schul-cloud applications.
+This package contains shareable ESLint configuration used by the @hpi-schul-cloud applications.
 
-[![npm (scoped)](https://img.shields.io/npm/v/@schul-cloud/eslint-config)](https://www.npmjs.com/package/@schul-cloud/eslint-config)
+[![npm (scoped)](https://img.shields.io/npm/v/@hpi-schul-cloud/eslint-config)](https://www.npmjs.com/package/@hpi-schul-cloud/eslint-config)
 
 ## Getting Started
 
@@ -11,25 +11,25 @@ This package contains shareable ESLint configuration used by the @schul-cloud ap
 Using npm:
 
 ```shell
-  npm install @schul-cloud/eslint-config --save-dev
+  npm install @hpi-schul-cloud/eslint-config --save-dev
 ```
 
 Using Yarn:
 
 ```shell
-  yarn add @schul-cloud/eslint-config --dev
+  yarn add @hpi-schul-cloud/eslint-config --dev
 ```
 
 ### 2. Usage
 
 * Create a new file and name it as `.eslintrc.js`
-* Import relevant config file from `@schul-cloud/eslint-config` and just export it as follows.
+* Import relevant config file from `@hpi-schul-cloud/eslint-config` and just export it as follows.
 
 ### For JavaScript projects
 
 ```javascript
 module.exports = {
-  extends: '@schul-cloud/eslint-config/javascript',
+  extends: '@hpi-schul-cloud/eslint-config/javascript',
 };
 ```
 
@@ -37,7 +37,7 @@ module.exports = {
 
 ```javascript
 module.exports = {
-  extends: '@schul-cloud/eslint-config/javascriptVue',
+  extends: '@hpi-schul-cloud/eslint-config/javascriptVue',
 };
 ```
 
@@ -51,7 +51,7 @@ module.exports = {
   overrides: [
     {
       files: ["**/*.unit.js"], // regex that matches your testfiles
-      extends: ["@schul-cloud/eslint-config/javascriptJest"],
+      extends: ["@hpi-schul-cloud/eslint-config/javascriptJest"],
     },
   ],
 };
@@ -65,7 +65,7 @@ If you want to override the default configuration, then add the following code i
 
 ```javascript
 module.exports = {
-  extends: '@schul-cloud/eslint-config/javascript',
+  extends: '@hpi-schul-cloud/eslint-config/javascript',
   // your config options goes here, e.g. plugins: [...], rules: { ... }
 };
 ```
@@ -74,7 +74,7 @@ module.exports = {
 
 ```javascript
 module.exports = {
-  extends: '@schul-cloud/eslint-config/javascriptVue',
+  extends: '@hpi-schul-cloud/eslint-config/javascriptVue',
   // your config options goes here, e.g. plugins: [...], rules: { ... }
 };
 ```
@@ -87,7 +87,7 @@ module.exports = {
   overrides: [
     {
       files: ["**/*.unit.js"], // regex that matches your testfiles
-      extends: ["@schul-cloud/eslint-config/javascriptJest"],
+      extends: ["@hpi-schul-cloud/eslint-config/javascriptJest"],
       rules: {
         // you can adjust the rules here.
       },

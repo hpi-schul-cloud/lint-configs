@@ -1,6 +1,6 @@
-# @schul-cloud/stylelint-config
+# @hpi-schul-cloud/stylelint-config
 
-[![npm (scoped)](https://img.shields.io/npm/v/@schul-cloud/stylelint-config)](https://www.npmjs.com/package/@schul-cloud/stylelint-config)
+[![npm (scoped)](https://img.shields.io/npm/v/@hpi-schul-cloud/stylelint-config)](https://www.npmjs.com/package/@hpi-schul-cloud/stylelint-config)
 
 ## Getting Started
 
@@ -9,20 +9,20 @@
 Using npm:
 
 ```shell
-  npm install -D @schul-cloud/stylelint-config
+  npm install -D @hpi-schul-cloud/stylelint-config
 ```
 
 Using Yarn:
 
 ```shell
-  yarn add @schul-cloud/stylelint-config --dev
+  yarn add @hpi-schul-cloud/stylelint-config --dev
 ```
 
 
 ### 2. Usage
 
 * Create a new file and name it as `stylelint.config.js`
-* Just extend `@schul-cloud/stylelint-config`
+* Just extend `@hpi-schul-cloud/stylelint-config`
 
 ```javascript
 {
