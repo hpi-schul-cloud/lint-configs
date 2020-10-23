@@ -1,15 +1,15 @@
 {
-  "name": "schul-cloud",
+  "name": "hpi-schul-cloud",
   "license": "AGPL-3.0",
   "version": "0.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/schul-cloud/lint-configs"
+    "url": "https://github.com/hpi-schul-cloud/lint-configs"
   },
-  "author": "HPI Schul-cloud (https://schul-cloud.org)",
-  "homepage": "https://github.com/schul-cloud/lint-configs#readme",
+  "author": "HPI Schul-cloud (https://hpi-schul-cloud.de)",
+  "homepage": "https://github.com/hpi-schul-cloud/lint-configs#readme",
   "bugs": {
-    "url": "https://github.com/schul-cloud/lint-configs/issues"
+    "url": "https://github.com/hpi-schul-cloud/lint-configs/issues"
   },
   "devDependencies": {
     "lerna": "^3.16.4"
