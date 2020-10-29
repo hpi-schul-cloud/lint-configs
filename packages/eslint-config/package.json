@@ -7,7 +7,7 @@
     "type": "git",
     "url": "https://github.com/hpi-schul-cloud/lint-configs"
   },
-  "author": "HPI schul-cloud (https://hpi-schul-cloud.de)",
+  "author": "HPI Schul-Cloud (https://hpi-schul-cloud.de)",
   "license": "AGPL-3.0",
   "engines": {
     "node": ">=10",
