@@ -10,7 +10,7 @@ jobs:
       - name: listen for PR Comments
         uses: machine-learning-apps/actions-chatops@master
         with:
-          TRIGGER_PHRASE: "@schul-cloud-bot tell dependabot to recreate PR"
+          TRIGGER_PHRASE: "@hpi-schul-cloud-bot tell dependabot to recreate PR"
         env:
           GITHUB_TOKEN: ${{ secrets.SC_BOT_GITHUB_TOKEN }}
         id: prcomm
