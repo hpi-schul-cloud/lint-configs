@@ -12,7 +12,7 @@
     "url": "https://github.com/hpi-schul-cloud/lint-configs/issues"
   },
   "devDependencies": {
-    "lerna": "^3.16.4"
+    "lerna": "^4.0.0"
   },
   "scripts": {
     "setup": "npm i && lerna exec npm i",
