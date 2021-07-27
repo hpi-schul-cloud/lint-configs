@@ -4,14 +4,26 @@ on:
   push:
     branches:
       - master
+      - main
 
 jobs:
-  npm:
+  npm-publish:
     runs-on: ubuntu-latest
     steps:
     - name: checkout
-      uses: actions/checkout@v1
-    - name: Publish
-      run: |
-        echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_AUTH_TOKEN }}" > .npmrc
-        npm run lerna:publish -- --yes
+      uses: actions/checkout@v2 
+    - uses: actions/setup-node@v2
+      with:
+        registry-url: 'https://registry.npmjs.org'
+    - name: Publish npmjs.org
+      run: npm run lerna:publish -- --yes
+      env:
+        NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+    - uses: actions/setup-node@v2
+      with:
+        registry-url: 'https://npm.pkg.github.com'
+        scope: '@hpi-schul-cloud'
+    - name: Publish npm.pkg.github.com
+      run: npm run lerna:publish -- --yes --registry https://npm.pkg.github.com
+      env:
+        NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
