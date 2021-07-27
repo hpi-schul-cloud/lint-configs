@@ -11,9 +11,6 @@ jobs:
     steps:
     - name: checkout
       uses: actions/checkout@v1
-    - name: setup
-      run: |
-        npm run setup
     - name: Publish
       run: |
         echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_AUTH_TOKEN }}" > .npmrc
