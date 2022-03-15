@@ -23,7 +23,7 @@
     "hpi-schul-cloud"
   ],
   "dependencies": {
-    "@babel/core": "^7.12.16",
+    "@babel/core": "^7.17.7",
     "@vue/eslint-config-prettier": "^6.0.0",
     "@vue/eslint-config-standard": "^6.0.0",
     "babel-eslint": "^10.1.0",
