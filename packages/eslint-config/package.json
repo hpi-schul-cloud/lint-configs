@@ -1,6 +1,6 @@
 {
   "name": "@hpi-schul-cloud/eslint-config",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "This package contains shareable ESLint configuration used by the applications @hpi-schul-cloud.",
   "main": "index.js",
   "repository": {
